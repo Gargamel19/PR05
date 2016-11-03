@@ -1,8 +1,11 @@
+# Author:: Ferdinand Trendelenburg
+# Author:: Thorben Schomacker
 # Author:: Laura Westfalen
 # Author:: Lukas Stermann
 
-class Teil
 
+class Teil
+  #Initialize geschrieben von Ferdinand Trendelenburg & Thorben Schomacker 
   def initialize (designation, weight, materials)
     @designation = designation
     if (@designation.instance_of?(String))
@@ -30,7 +33,8 @@ class Teil
     end
     @parent = nil
   end
-
+  
+  #ab hier beginnt die Arbeit von Laura Westfalen & Lukas Stermann
   attr_accessor :designation, :weight
 
   def get_parent # Hier würde attr_reader auch gehen.
