@@ -1,3 +1,6 @@
+# Author:: Ferdinand Trendelenburg
+# Author:: Thorben Schomacker
+
 require 'test/unit'
 require_relative 'teil.rb'
 
